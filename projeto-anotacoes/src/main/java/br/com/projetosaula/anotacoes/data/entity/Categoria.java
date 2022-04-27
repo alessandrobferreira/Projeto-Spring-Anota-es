@@ -56,6 +56,8 @@ public class Categoria {
 		return new CategoriaDTO(getId(), getDescricao(), isFlativo());
 	}
 	
-	
+	public Categoria() {
+		
+	}
 
 }

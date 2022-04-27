@@ -34,4 +34,9 @@ public class NotaService {
 		return nota.getDTO();
 	}
 
+	public NotaDTO add(NotaDTO nota) {
+      	return repository.save(nota.convertToEntity()).getDTO();
+	
+	}
+
 }
